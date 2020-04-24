@@ -2,24 +2,24 @@
 <testng-results total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-24T06:24:57Z" name="RestAssuredTestSuite" finished-at="2020-04-24T06:25:10Z" duration-ms="12851">
+  <suite started-at="2020-04-24T06:48:32Z" name="RestAssuredTestSuite" finished-at="2020-04-24T06:48:43Z" duration-ms="10939">
     <groups>
     </groups>
-    <test started-at="2020-04-24T06:24:57Z" name="Test" finished-at="2020-04-24T06:25:10Z" duration-ms="12851">
+    <test started-at="2020-04-24T06:48:32Z" name="Test" finished-at="2020-04-24T06:48:43Z" duration-ms="10939">
       <class name="RestAssuredTestCases.TC001_Get_ReadingAllHeaders">
-        <test-method signature="getAllHeader()[pri:0, instance:RestAssuredTestCases.TC001_Get_ReadingAllHeaders@226a82c4]" started-at="2020-04-23T23:25:09Z" name="getAllHeader" finished-at="2020-04-23T23:25:10Z" duration-ms="456" status="PASS">
+        <test-method signature="getAllHeader()[pri:0, instance:RestAssuredTestCases.TC001_Get_ReadingAllHeaders@226a82c4]" started-at="2020-04-23T23:48:43Z" name="getAllHeader" finished-at="2020-04-23T23:48:43Z" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllHeader -->
       </class> <!-- RestAssuredTestCases.TC001_Get_ReadingAllHeaders -->
       <class name="RestAssuredTestCases.TC001_Get_HeaderValidation">
-        <test-method signature="validateHeader()[pri:0, instance:RestAssuredTestCases.TC001_Get_HeaderValidation@7fe8ea47]" started-at="2020-04-23T23:25:08Z" name="validateHeader" finished-at="2020-04-23T23:25:09Z" duration-ms="1450" status="PASS">
+        <test-method signature="validateHeader()[pri:0, instance:RestAssuredTestCases.TC001_Get_HeaderValidation@7fe8ea47]" started-at="2020-04-23T23:48:42Z" name="validateHeader" finished-at="2020-04-23T23:48:43Z" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeader -->
       </class> <!-- RestAssuredTestCases.TC001_Get_HeaderValidation -->
       <class name="RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee">
-        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee@4461c7e3]" started-at="2020-04-23T23:25:04Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:25:05Z" duration-ms="461" status="PASS">
+        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee@4461c7e3]" started-at="2020-04-23T23:48:39Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:48:40Z" duration-ms="453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postNewEmployee -->
-        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee@4461c7e3]" started-at="2020-04-23T23:25:05Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:25:05Z" duration-ms="446" status="PASS">
+        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee@4461c7e3]" started-at="2020-04-23T23:48:40Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:48:40Z" duration-ms="406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,19 +63,19 @@
         </test-method> <!-- postNewEmployee -->
       </class> <!-- RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee -->
       <class name="RestAssuredTestCases.TC001_Post_Request">
-        <test-method signature="registration()[pri:0, instance:RestAssuredTestCases.TC001_Post_Request@345965f2]" started-at="2020-04-23T23:24:57Z" name="registration" finished-at="2020-04-23T23:25:03Z" duration-ms="6139" status="PASS">
+        <test-method signature="registration()[pri:0, instance:RestAssuredTestCases.TC001_Post_Request@345965f2]" started-at="2020-04-23T23:48:32Z" name="registration" finished-at="2020-04-23T23:48:38Z" duration-ms="6050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
       </class> <!-- RestAssuredTestCases.TC001_Post_Request -->
       <class name="RestAssuredTestCases.TC001_Body_Data_Validation">
-        <test-method signature="bodyDataValidation()[pri:0, instance:RestAssuredTestCases.TC001_Body_Data_Validation@35fc6dc4]" started-at="2020-04-23T23:25:07Z" name="bodyDataValidation" finished-at="2020-04-23T23:25:08Z" duration-ms="406" status="PASS">
+        <test-method signature="bodyDataValidation()[pri:0, instance:RestAssuredTestCases.TC001_Body_Data_Validation@35fc6dc4]" started-at="2020-04-23T23:48:42Z" name="bodyDataValidation" finished-at="2020-04-23T23:48:42Z" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bodyDataValidation -->
       </class> <!-- RestAssuredTestCases.TC001_Body_Data_Validation -->
       <class name="RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee">
-        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee@77e4c80f]" started-at="2020-04-23T23:25:06Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:25:07Z" duration-ms="773" status="PASS">
+        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee@77e4c80f]" started-at="2020-04-23T23:48:41Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:48:42Z" duration-ms="450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postNewEmployee -->
-        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee@77e4c80f]" started-at="2020-04-23T23:25:07Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:25:07Z" duration-ms="643" status="PASS">
+        <test-method signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee@77e4c80f]" started-at="2020-04-23T23:48:42Z" name="postNewEmployee" data-provider="employeeData" finished-at="2020-04-23T23:48:42Z" duration-ms="385" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,19 +119,19 @@
         </test-method> <!-- postNewEmployee -->
       </class> <!-- RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee -->
       <class name="RestAssuredTestCases.TC001_Get_Request">
-        <test-method signature="getWeatherDetails()[pri:0, instance:RestAssuredTestCases.TC001_Get_Request@58134517]" started-at="2020-04-23T23:25:03Z" name="getWeatherDetails" finished-at="2020-04-23T23:25:04Z" duration-ms="614" status="PASS">
+        <test-method signature="getWeatherDetails()[pri:0, instance:RestAssuredTestCases.TC001_Get_Request@58134517]" started-at="2020-04-23T23:48:38Z" name="getWeatherDetails" finished-at="2020-04-23T23:48:39Z" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWeatherDetails -->
       </class> <!-- RestAssuredTestCases.TC001_Get_Request -->
       <class name="RestAssuredTestCases.TC001_BasicAuthentication">
-        <test-method signature="authentication()[pri:0, instance:RestAssuredTestCases.TC001_BasicAuthentication@351d0846]" started-at="2020-04-23T23:25:05Z" name="authentication" finished-at="2020-04-23T23:25:06Z" duration-ms="422" status="PASS">
+        <test-method signature="authentication()[pri:0, instance:RestAssuredTestCases.TC001_BasicAuthentication@351d0846]" started-at="2020-04-23T23:48:40Z" name="authentication" finished-at="2020-04-23T23:48:40Z" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- authentication -->
       </class> <!-- RestAssuredTestCases.TC001_BasicAuthentication -->
       <class name="RestAssuredTestCases.TC001_ExtractingJSONBodayValue">
-        <test-method signature="extractBodyValue()[pri:0, instance:RestAssuredTestCases.TC001_ExtractingJSONBodayValue@4450d156]" started-at="2020-04-23T23:25:04Z" name="extractBodyValue" finished-at="2020-04-23T23:25:04Z" duration-ms="523" status="PASS">
+        <test-method signature="extractBodyValue()[pri:0, instance:RestAssuredTestCases.TC001_ExtractingJSONBodayValue@4450d156]" started-at="2020-04-23T23:48:39Z" name="extractBodyValue" finished-at="2020-04-23T23:48:39Z" duration-ms="505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractBodyValue -->
