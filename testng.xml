@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredTestSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RestAssuredTestCases.TC001_Post_Request"/>
+      <class name="RestAssuredTestCases.TC001_Get_Request"/>
+      <class name="RestAssuredTestCases.TC001_ExtractingJSONBodayValue"/>
+      
+      <class name="RestAssuredTestCases.TC001_DataDrivenAPITest_AddNewEmployee"/>
+      <class name="RestAssuredTestCases.TC001_BasicAuthentication"/>
+      <class name="RestAssuredTestCases.TC001_ExceDataDriven_AddNewEmployee"/>
+      <class name="RestAssuredTestCases.TC001_Body_Data_Validation"/>
+      <class name="RestAssuredTestCases.TC001_Get_HeaderValidation"/>
+      <class name="RestAssuredTestCases.TC001_Get_ReadingAllHeaders"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RestAssuredTestSuite -->
